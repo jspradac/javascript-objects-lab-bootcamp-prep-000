@@ -1,2 +1,4 @@
 var recipes = {mole: "mole and rice"};
-function 
+function updateObjectWithKeyAndValue(object, key, value) {
+  return object[key] = value;
+}
